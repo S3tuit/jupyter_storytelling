@@ -1,0 +1,542 @@
+
+
+﻿﻿﻿﻿﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang=it><head>
+<title>Demos</title>
+<style type="text/css">
+<!--
+DIV.BloccoSel
+{
+	border: 1px solid #b0b0b0;
+	margin-bottom: 8px;
+    padding: 2px 2px 2px 6px;
+    font-size:12px;
+}
+
+DIV.BloccoSel select{
+	font-size:12px;
+	height:25px;
+	padding: 3px 5px;
+	margin-bottom: 10px;
+}
+
+DIV.BloccoSel .btn{
+	font-size:12px;
+}
+
+DIV.BloccoSel TD.labelcheck
+{
+	padding-left: 5px;
+}
+
+TABLE.varSel
+{
+	/*width: 100%;*/
+}
+
+.varSel TD.radiocheck
+{
+	width: 5px;
+}
+
+.varSel TD.labelcheck
+{
+	width: 100%;
+	padding-left: 5px;
+}
+
+INPUT.fldFascia
+{
+	height:15px;
+	font-size:12px;
+	width: 30px;
+	padding: 5px;
+}
+
+DIV.classiDes
+{
+    padding: 3px 0px 0px 0px;
+}
+
+TABLE.classiDes TD
+{
+	vertical-align: top;
+}
+
+TABLE.classiDes .spunta
+{
+	padding-top:3px;
+	width:20px;
+}
+
+textarea#fasciautente {
+	width:150px;
+	height: 120px;
+	border: 1px solid #b0b0b0;
+	padding: 5px;
+}
+
+.chkAreaTerr DIV.label
+{
+	font-weight: bold;
+	padding: 6px;
+}
+
+IMG#itblCheck
+{
+    border: 0px solid silver;
+    padding: 2px 7px 2px 3px;
+    margin: 0px;
+    vertical-align: middle;
+}
+TABLE.chkAreaTerr
+{
+	margin: auto;
+	border: none;
+	border-collapse: collapse;
+    padding : 0px;
+}
+
+TABLE.chkAreaTerr TD.radiocheck
+{
+	width: 12px;
+	vertical-align: top;
+	border: none;
+}
+
+TABLE.chkAreaTerr TD.labelcheck
+{
+	width: 118px;
+	vertical-align: top;
+	border: none;
+}
+
+.chkAreaTerr .btncontainer
+{
+	padding: 5px;
+}
+
+.chkAreaTerr .btn
+{
+	margin: auto;
+	width: 120px;
+	text-align: center;
+	border: solid 1px #b0b0b0;
+	color: #666666;
+	background-color: #f2f8ea;
+	padding: 3px;
+}
+
+DIV.DataTbl
+{
+	/*width: 640px;*/
+	width: 600px;
+	margin: auto;
+    padding: 0px;
+	overflow: auto;
+}
+
+DIV.DataTbl select{
+	font-size:12px;
+	height:25px;
+	padding: 3px 5px;
+}
+
+.DataTbl select{
+	font-size:12px;
+	height:25px;
+	padding: 3px 5px;
+}
+
+TABLE.DataTbl
+{
+	margin: auto auto 10px auto;
+	border: 1px solid #b0b0b0;
+	border-collapse: collapse;
+    padding : 1px;
+}
+
+.DataTbl TH
+{
+	border: 1px dotted #b0b0b0;
+    padding : 3px;
+    margin: 0px;
+	text-align: left;
+    background-color: #f2f8ea;
+	height: 24px;
+	font-size:12px;
+}
+
+.DataTbl TH.titolo
+{
+	font-size:12px;
+    border-top: 1px solid #b0b0b0;
+}
+
+.DataTbl TH.titolo select
+{
+	width: 350px;
+}
+
+.DataTbl TH.anno
+{
+	width: 60px;
+	text-align: left;
+}
+
+.DataTbl TH.var
+{
+	width: 74px;
+	text-align: right;
+    padding : 3px;
+	text-align: right;
+}
+
+.DataTbl TH.prov
+{
+	width: 80px;
+	text-align: left;
+}
+
+.DataTbl TH.capol
+{
+	width: 80px;
+	text-align: left;
+}
+
+.DataTbl TH.asl
+{
+	width: 80px;
+	text-align: left;
+}
+
+.DataTbl TH.distretto
+{
+	width: 100px;
+	text-align: left;
+}
+
+.DataTbl TH.cpi
+{
+	width: 100px;
+	text-align: left;
+}
+
+.DataTbl TH.areametr
+{
+	width: 100px;
+	text-align: left;
+}
+
+.DataTbl TH.commont
+{
+	width: 200px;
+	text-align: left;
+}
+
+.DataTbl TH.regione
+{
+	width: 180px;
+	text-align: left;
+}
+
+.DataTbl TH.fascia
+{
+	font-size:12px;
+	width: 100px;
+	text-align: left;
+}
+
+
+.DataTbl TD
+{
+	font-size:12px;
+	vertical-align: middle; 
+	margin: 0px; 
+	padding: 3px;
+	border: 1px dotted #b0b0b0;
+	height: 16px;
+}
+
+.DataTbl TD.anno
+{
+	width: 60px;
+}
+
+.DataTbl TD.var
+{
+	width: 74px;
+	text-align: right;
+    padding : 3px;
+}
+
+.DataTbl IMG
+{
+    border: 0px solid silver;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: top;
+}
+
+.DataTbl .bold
+{
+    font-weight: bold
+}
+
+.DataTbl .prov, .DataTbl .var 
+{
+    font-size: 12px;
+    vertical-align:middle;
+    line-height: normal;
+}
+/*
+.btn
+{
+    margin:auto;
+    padding: 2px;
+	text-align: center;
+}
+*/
+.btn
+{
+	margin: auto;
+	width: 80px;
+	text-align: center;
+	border: solid 1px #b0b0b0;
+	color: #666666;
+	background-color: #f2f8ea;
+	padding: 3px;
+}
+.DataTbl TH, .DataTbl TD
+{
+	height: auto;
+}
+.DataTbl TD.fascia
+{
+	mso-number-format:\@;
+}
+-->
+</style>
+</head>
+<body>
+<div class="DataTbl">
+<table class="DataTbl">
+<tr>
+<th class="titolo" colspan="8">Movimenti anagrafici delle Regioni italiane - Maschi + Femmine - Anno 2019</th>
+</tr>
+<tr>
+<th class="regione">Regione</th>
+<th class="var">Nati</th
+><th class="var">Morti</th
+><th class="var">Iscritti dall'Estero</th
+><th class="var">Totale Iscritti</th
+><th class="var">Cancellati per l'estero</th
+><th class="var">Totale Cancellati</th
+><th class="var">Popolazione residente al 31 Dicembre</th
+></tr>
+<tr
+><td class="regione">Piemonte</td
+><td class="var">27.972</td>
+<td class="var">53.137</td>
+<td class="var">25.763</td>
+<td class="var">169.238</td>
+<td class="var">12.230</td>
+<td class="var">162.824</td>
+<td class="var">4.311.217</td>
+</tr>
+<tr
+><td class="regione">Valle D'Aosta</td
+><td class="var">841</td>
+<td class="var">1.392</td>
+<td class="var">684</td>
+<td class="var">5.429</td>
+<td class="var">445</td>
+<td class="var">5.503</td>
+<td class="var">125.034</td>
+</tr>
+<tr
+><td class="regione">Lombardia</td
+><td class="var">73.117</td>
+<td class="var">99.983</td>
+<td class="var">70.261</td>
+<td class="var">417.435</td>
+<td class="var">34.425</td>
+<td class="var">375.336</td>
+<td class="var">10.027.602</td>
+</tr>
+<tr
+><td class="regione">Trentino Alto Adige</td
+><td class="var">9.473</td>
+<td class="var">9.528</td>
+<td class="var">6.954</td>
+<td class="var">38.680</td>
+<td class="var">5.704</td>
+<td class="var">35.686</td>
+<td class="var">1.078.069</td>
+</tr>
+<tr
+><td class="regione">Veneto</td
+><td class="var">33.556</td>
+<td class="var">48.900</td>
+<td class="var">30.656</td>
+<td class="var">181.067</td>
+<td class="var">18.064</td>
+<td class="var">171.965</td>
+<td class="var">4.879.133</td>
+</tr>
+<tr
+><td class="regione">Friuli Venezia Giulia</td
+><td class="var">7.495</td>
+<td class="var">14.318</td>
+<td class="var">7.422</td>
+<td class="var">43.575</td>
+<td class="var">5.583</td>
+<td class="var">40.899</td>
+<td class="var">1.206.216</td>
+</tr>
+<tr
+><td class="regione">Liguria</td
+><td class="var">8.747</td>
+<td class="var">21.354</td>
+<td class="var">10.137</td>
+<td class="var">52.099</td>
+<td class="var">3.677</td>
+<td class="var">47.622</td>
+<td class="var">1.524.826</td>
+</tr>
+<tr
+><td class="regione">Emilia Romagna</td
+><td class="var">30.922</td>
+<td class="var">50.274</td>
+<td class="var">30.576</td>
+<td class="var">172.504</td>
+<td class="var">13.431</td>
+<td class="var">150.670</td>
+<td class="var">4.464.119</td>
+</tr>
+<tr
+><td class="regione">Toscana</td
+><td class="var">23.451</td>
+<td class="var">43.677</td>
+<td class="var">26.391</td>
+<td class="var">133.924</td>
+<td class="var">9.509</td>
+<td class="var">123.912</td>
+<td class="var">3.692.555</td>
+</tr>
+<tr
+><td class="regione">Umbria</td
+><td class="var">5.577</td>
+<td class="var">10.263</td>
+<td class="var">5.534</td>
+<td class="var">23.930</td>
+<td class="var">2.879</td>
+<td class="var">23.018</td>
+<td class="var">870.165</td>
+</tr>
+<tr
+><td class="regione">Marche</td
+><td class="var">9.667</td>
+<td class="var">17.442</td>
+<td class="var">8.513</td>
+<td class="var">44.698</td>
+<td class="var">5.784</td>
+<td class="var">45.046</td>
+<td class="var">1.512.672</td>
+</tr>
+<tr
+><td class="regione">Lazio</td
+><td class="var">38.885</td>
+<td class="var">56.796</td>
+<td class="var">34.319</td>
+<td class="var">155.018</td>
+<td class="var">13.661</td>
+<td class="var">156.807</td>
+<td class="var">5.755.700</td>
+</tr>
+<tr
+><td class="regione">Abruzzo</td
+><td class="var">8.500</td>
+<td class="var">14.612</td>
+<td class="var">7.416</td>
+<td class="var">37.710</td>
+<td class="var">4.316</td>
+<td class="var">38.780</td>
+<td class="var">1.293.941</td>
+</tr>
+<tr
+><td class="regione">Molise</td
+><td class="var">1.927</td>
+<td class="var">3.663</td>
+<td class="var">1.876</td>
+<td class="var">7.720</td>
+<td class="var">1.071</td>
+<td class="var">9.430</td>
+<td class="var">300.516</td>
+</tr>
+<tr
+><td class="regione">Campania</td
+><td class="var">46.731</td>
+<td class="var">53.860</td>
+<td class="var">19.739</td>
+<td class="var">142.458</td>
+<td class="var">13.217</td>
+<td class="var">165.219</td>
+<td class="var">5.712.143</td>
+</tr>
+<tr
+><td class="regione">Puglia</td
+><td class="var">27.586</td>
+<td class="var">39.140</td>
+<td class="var">12.977</td>
+<td class="var">68.996</td>
+<td class="var">8.776</td>
+<td class="var">80.412</td>
+<td class="var">3.953.305</td>
+</tr>
+<tr
+><td class="regione">Basilicata</td
+><td class="var">3.672</td>
+<td class="var">6.508</td>
+<td class="var">2.233</td>
+<td class="var">8.864</td>
+<td class="var">1.458</td>
+<td class="var">11.500</td>
+<td class="var">553.254</td>
+</tr>
+<tr
+><td class="regione">Calabria</td
+><td class="var">14.491</td>
+<td class="var">20.162</td>
+<td class="var">9.180</td>
+<td class="var">40.441</td>
+<td class="var">7.070</td>
+<td class="var">54.063</td>
+<td class="var">1.894.110</td>
+</tr>
+<tr
+><td class="regione">Sicilia</td
+><td class="var">38.616</td>
+<td class="var">52.405</td>
+<td class="var">17.625</td>
+<td class="var">104.444</td>
+<td class="var">14.188</td>
+<td class="var">126.330</td>
+<td class="var">4.875.290</td>
+</tr>
+<tr
+><td class="regione">Sardegna</td
+><td class="var">8.858</td>
+<td class="var">17.003</td>
+<td class="var">4.522</td>
+<td class="var">36.786</td>
+<td class="var">4.017</td>
+<td class="var">39.535</td>
+<td class="var">1.611.621</td>
+</tr>
+<tr
+><td class="prov"><strong>Italia</strong></td><td class="var"><strong>420.084</strong></td><td class="var"><strong>634.417</strong></td><td class="var"><strong>332.778</strong></td><td class="var"><strong>1.885.016</strong></td><td class="var"><strong>179.505</strong></td><td class="var"><strong>1.864.557</strong></td><td class="var"><strong>59.641.488</strong></td></tr>
+</table>
+</div>
+</body>
+</html>
